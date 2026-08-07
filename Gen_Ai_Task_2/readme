@@ -1,0 +1,162 @@
+
+
+# Task 1 - Discount Calculator
+
+## Objective
+
+Create a program that calculates the discount, tax, and final payable amount based on the order amount.
+
+### Discount Rules
+
+| Order Amount | Discount |
+|--------------|----------|
+| ₹2000 or more | 15% |
+| ₹1500 - ₹1999 | 10% |
+| ₹1000 - ₹1499 | 7% |
+| Less than ₹1000 | No Discount |
+
+### Additional Requirement
+
+- Apply **5% tax** after the discount.
+- Handle invalid input using `try-except`.
+
+### Concepts Used
+
+- Input
+- Exception Handling
+- Conditional Statements
+- Arithmetic Operations
+
+# How to Run
+
+```bash
+python discount_rules.py
+```
+---
+
+# Task 2 - Multiple Order Processing
+
+## Objective
+
+Process multiple orders stored in a list.
+
+```python
+orders = [1200, 2500, 800, 1750, 3000]
+```
+
+### Requirements
+
+- Calculate discount for every order.
+- Calculate final order amount.
+- Calculate total revenue.
+- Count how many orders received a discount.
+
+### Concepts Used
+
+- Lists
+- for Loop
+- Conditional Statements
+- Accumulator Pattern
+
+```bash
+python multi_orders.py
+```
+---
+
+# Task 3 - Menu Driven Order System
+
+## Objective
+
+Create a simple menu-driven application.
+
+### Menu
+
+```
+1. Add Order
+2. Show Orders
+q. Quit
+```
+
+### Features
+
+- Add new orders.
+- Display all orders with discounts.
+- Calculate total revenue.
+- Quit the application.
+- Handle invalid choices using `continue`.
+
+### Concepts Used
+
+- while Loop
+- break
+- continue
+- Lists
+- Input Validation
+
+```bash
+python user_memu.py
+```
+
+---
+
+# Task 4 - Daily Sales Analyzer
+
+## Objective
+
+Analyze daily sales while handling special conditions.
+
+```python
+daily = [200, 150, 0, 400, 50, -1, 300]
+```
+
+### Rules
+
+- `0` → No sales today (`continue`)
+- `-1` → Corrupted data (`break`)
+- Add only valid sales to the total.
+
+### Expected Output
+
+```
+200
+150
+No sales today
+400
+50
+Corrupted data found
+Total Sales: 800
+```
+
+### Concepts Used
+
+- for Loop
+- break
+- continue
+- Conditional Statements
+- Accumulator Pattern
+
+---
+
+# Learning Outcomes
+
+After completing these tasks, you will understand:
+
+- Python syntax
+- Variables and data types
+- Conditional statements
+- Loops
+- Lists
+- Exception handling
+- Menu-driven programs
+- Business logic implementation
+- Basic interview problem-solving techniques
+
+---
+
+# How to Run
+
+```bash
+python loop_control.py
+```
+
+---
