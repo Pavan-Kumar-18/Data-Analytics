@@ -12,7 +12,7 @@ price_dict = {
     "Shirt": 25,
     "Phone": 800,
     "Jeans": 50,
-    "Apple": 2,
+    "Apple": 2, 
 }
 
 catalog = []
